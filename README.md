@@ -20,12 +20,22 @@ Non-parametric learning algorithm − KNN is also a non-parametric learning algo
 2. Preprocess the data by converting the string column to integer column and then rescale it.
 3. Determine the min and Max values for each columns and then split the dataset into k folds then calculate the Euclidean distance between two vectors and then print the accuracy of our model.
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## Program:
-
-### Program to implement KNN classification algorithm.
-### Developed by   : KAYALVIZHI M
-### RegisterNumber : 212220230024
-
+```
+Program to implement KNN classification algorithm.
+Developed by   : KAYALVIZHI M
+RegisterNumber : 212220230024
+```
 ```python
 # k-nearest neighbors on the Iris Flowers Dataset
 from random import seed
@@ -166,6 +176,18 @@ scores = evaluate_algorithm(dataset, k_nearest_neighbors, n_folds, num_neighbors
 print('Scores: %s' % scores)
 print('Mean Accuracy: %.3f%%' % (sum(scores)/float(len(scores))))
 ```
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## Output:
 
 ![img](https://user-images.githubusercontent.com/75413726/169558348-da980b17-38ed-4649-873d-62c656b72864.png)
